@@ -1,0 +1,12 @@
+.task-list__cards,
+.task-list__card {
+  margin: 20px 0 0;
+}
+
+.task-list__cards {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}

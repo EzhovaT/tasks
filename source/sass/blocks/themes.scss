@@ -1,0 +1,18 @@
+.themes__title {
+  text-align: center;
+  font-size: 26px;
+}
+
+.themes__box {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.themes__button {
+  background-color: transparent;
+  border: none;
+  &:active{
+    transform: translate(3px, 3px);
+  }
+}
